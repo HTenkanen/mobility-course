@@ -1,0 +1,44 @@
+name: geo
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - access
+  - contextily
+  - cykhash=1.0.2
+  - dash
+  - folium
+  - geopandas
+  - geoplot
+  - geopy
+  - hvplot
+  - jupyterlab=3.0.6
+  - jupyterlab-git
+  - mamba
+  - mapclassify
+  - matplotlib
+  - momepy
+  - movingpandas
+  - networkx
+  - osmnx
+  - pandana
+  - pandas
+  - plotly_express
+  - pyrosm
+  - pysal
+  - python-igraph
+  - r5py
+  - scikit-learn
+  - scikit-mobility
+  - scipy
+  - segregation
+  - spaghetti
+  - splot
+  - spreg
+  - tqdm
+  - urbanaccess
+  - pip
+  - pip:
+      - keplergl
