@@ -1,7 +1,2 @@
-jupyter-book>=0.7.0b
 sphinx-book-theme
 sphinx
-ipython
-nbsphinx
-jupyter-sphinx
-sphinxcontrib-bibtex
