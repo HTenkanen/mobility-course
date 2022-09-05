@@ -69,11 +69,11 @@ html_theme_options = {
     "repository_branch": "main",
     "path_to_docs": "source/",
     # "twitter_url": "https://twitter.com/pythongis",
-    "google_analytics_id": "UA-186242850-1",
+    "google_analytics_id": "",
     "use_edit_page_button": True,
     "use_repository_button": True,
     "launch_buttons": {
-        "binderhub_url": "https://mybinder.org",
+        "binderhub_url": "https://notebooks.gesis.org/binder",
         "thebe": False,
         "notebook_interface": "jupyterlab",
         "collapse_navigation": False,
