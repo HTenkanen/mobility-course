@@ -9,7 +9,6 @@ After participating in the event, the student is able to:
 - Understand how modern computational technologies can be used to support open science and reproducible research
 - Assess the selected analytical tools and understand their benefits and limitations
 
-
 Course format
 -------------
 
@@ -45,35 +44,37 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: Lesson 1
+   :caption: Day 1
 
    lessons/L1/lesson-overview
-   lessons/L1/sustainability-intro
-   lessons/L1/spatial-data-science-intro
+   lessons/L1/wellbeing-capabilities
+   lessons/L1/network-analytics-accessibility
    lessons/L1/git-basics
    lessons/L1/intro-to-python-geostack.ipynb
+   lessons/L1/spatial_network_analysis.ipynb
    lessons/L1/literature
    lessons/L1/exercise-1
+   lessons/L1/exercise-2
 
 
 .. toctree::
    :maxdepth: 1
-   :caption: Lesson 2
+   :caption: Day 2
 
    lessons/L2/lesson-overview
-   lessons/L2/wellbeing-capabilities
-   lessons/L2/network-analytics-accessibility
-   lessons/L2/spatial_network_analysis.ipynb
+
+
+   lessons/L3/mobilities
+   lessons/L3/trajectory-data-mining
+   lessons/L3/mobility-analytics.ipynb
    lessons/L2/literature
-   lessons/L2/exercise-2
+
 
 .. toctree::
    :maxdepth: 1
    :caption: Lesson 3
 
    lessons/L3/lesson-overview
-   lessons/L3/mobilities
-   lessons/L3/trajectory-data-mining
-   lessons/L3/mobility-analytics.ipynb
+
    lessons/L3/literature
    lessons/L3/exercise-3.ipynb
