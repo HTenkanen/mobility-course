@@ -39,13 +39,9 @@ Contents
    :caption: Course information
 
    course-info/introduction
-   course-info/course-info
-   course-info/grading
-   course-info/course-environment-components
-   course-info/slack-usage
+   course-info/installing-miniconda
    course-info/License-terms
    course-info/attribution
-   .. course-info/pair-programming
 
 .. toctree::
    :maxdepth: 1
@@ -81,39 +77,3 @@ Contents
    lessons/L3/mobility-analytics.ipynb
    lessons/L3/literature
    lessons/L3/exercise-3.ipynb
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Lesson 4
-
-   lessons/L4/lesson-overview
-   lessons/L4/economy
-   lessons/L4/spatial_econometrics
-   lessons/L4/spatial_regression.ipynb
-   lessons/L4/literature
-   lessons/L4/exercise-4
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Lesson 5
-
-   lessons/L5/lesson-overview
-   lessons/L5/agent-based-modelling
-   lessons/L5/literature
-   ..    lessons/L5/exercise-5
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Lesson 6
-
-   ..  lessons/L6/lesson-overview
-       lessons/L6/conservation-planning-spatial-prioritization
-       lessons/L6/zonation-tutorial
-       lessons/L6/literature
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Final Assignment
-
-   lessons/final-assignment/final-assignment
-   lessons/final-assignment/final-assignment-grading
