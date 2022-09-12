@@ -46,7 +46,6 @@ Contents
    :maxdepth: 1
    :caption: Day 1
 
-   lessons/L1/lesson-overview
    lessons/L1/wellbeing-capabilities
    lessons/L1/network-analytics-accessibility
    lessons/L1/git-basics
