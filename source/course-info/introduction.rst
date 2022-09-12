@@ -6,6 +6,6 @@ various things:
 
 .. raw:: html
 
-    <iframe src="https://htenkanen.org/mobility-course/source/course-info/slides/index.html" frameborder="0" width="1000" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://htenkanen.org/mobility-course/slides/Introduction-to-the-course/index.html" frameborder="0" width="1000" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-(`Open in fullscreen <https://htenkanen.org/mobility-course/source/course-info/slides/index.html>`__)
+(`Open in fullscreen <https://htenkanen.org/mobility-course/slides/Introduction-to-the-course/index.html>`__)
