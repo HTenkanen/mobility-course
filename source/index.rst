@@ -28,7 +28,7 @@ Program
 
 The planned schedule for the course:
 
-.. figure:: img/schedule.png
+.. figure:: ../img/Augsburg-2022-programme.png
 
 Contents
 --------

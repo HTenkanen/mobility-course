@@ -1,5 +1,5 @@
-GIScience & sustainable mobility
-================================
+SDS & Sustainable mobility
+==========================
 
 .. raw:: html
 
