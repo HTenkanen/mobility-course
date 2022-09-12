@@ -46,14 +46,12 @@ Contents
    :maxdepth: 1
    :caption: Day 1
 
-   lessons/L1/wellbeing-capabilities
-   lessons/L1/network-analytics-accessibility
+   lessons/L1/giscience-and-sustainable-mobility
    lessons/L1/git-basics
    lessons/L1/intro-to-python-geostack.ipynb
    lessons/L1/spatial_network_analysis.ipynb
    lessons/L1/literature
    lessons/L1/exercise-1
-   lessons/L1/exercise-2
 
 
 .. toctree::
