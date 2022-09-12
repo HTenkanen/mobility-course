@@ -60,7 +60,7 @@ Henrikki Tenkanen, Aalto University
 <!-- slide template="[[black_main_template]]" -->
 
 # Programme
-![[Pasted image 20220902150321.png | 800]]
+![[Augsburg-2022-programme.png | 800]]
 
 ::: footer
 Henrikki Tenkanen, Aalto University
