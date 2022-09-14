@@ -53,24 +53,14 @@ Contents
    lessons/L1/exercise-1
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Day 2
+    .. toctree::
+       :maxdepth: 1
+       :caption: Day 2
 
-   lessons/L2/lesson-overview
-
-
-   lessons/L3/mobilities
-   lessons/L3/trajectory-data-mining
-   lessons/L3/mobility-analytics.ipynb
-   lessons/L2/literature
+       lessons/L2/lesson-overview
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Lesson 3
-
-   lessons/L3/lesson-overview
-
-   lessons/L3/literature
-   lessons/L3/exercise-3.ipynb
+       lessons/L3/mobilities
+       lessons/L3/trajectory-data-mining
+       lessons/L3/mobility-analytics.ipynb
+       lessons/L2/literature
