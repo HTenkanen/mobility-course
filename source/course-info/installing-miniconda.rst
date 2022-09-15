@@ -103,7 +103,7 @@ After installing `mamba`, the main steps for creating and using a conda environm
 2. activate the environment
 3. start using the environment (e.g. launch the JupyterLab and start coding, see below)
 
-We have prepared a ready-made environment file for this course (called ``environment.yml``). You can  `DOWNLOAD IT FROM HERE <https://github.com/htenkanen/mobility-course/blob/main/ci/environment.yml>`__.
+We have prepared a ready-made environment file for this course (called ``environment_mini.yml``). You can  `DOWNLOAD IT FROM HERE <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini.yml>`__.
 After downloading the environment file, run the following commands on the same folder where you downloaded it.
 If you don't know how to navigate between different folders, check these short tutorials for `terminal <https://riptutorial.com/terminal/example/26023/basic-navigation-commands>`_ and `command prompt (Windows) <https://riptutorial.com/cmd/example/8646/navigating-in-cmd>`_.
 The commands below work similarly in all operating systems where you have Miniconda (or Anaconda) installed:
@@ -142,6 +142,40 @@ Note, Jupyter Lab will probably prompt you to "Build" the installation in order 
     If you want to install some additional packages to your conda environment, ensure you have activated it (step 2 above) and
     install the package that you wish to install following the guidelines below.
 
+Install OpenJDK Java Development Kit
+------------------------------------
+
+``r5py`` library relies on Java JDK engine. Hence to get the ``r5py`` working, you need to install OpenJDK to your computer.
+Below are instructions how to do that.
+
+Windows
+~~~~~~~~
+
+On Windows, you need to do a bit of manual work to get OpenJDK working. Follow these steps:
+
+1. Go to `https://jdk.java.net/java-se-ri/11 <https://jdk.java.net/java-se-ri/11>`__ website
+2. Download the ``Windows/x64 Java Development Kit`` ((sha256) 178.7 MB) from the site by pressing the link
+3. Extract the contents of the Zipfile to your computer, e.g. ``Downloads``. As a result, you should see a folder called ``jdk-11``.
+4. Under the ``C:\Program Files`` create a folder called ``Java`` (requires admin rights)
+5. Copy and paste the ``jdk-11`` folder into the newly create `C:\Program Files\Java`` directory.
+6. Open a command prompt in **admin mode** by typing ``cmd`` in the Start menu -> **right click** the Command Prompt icon -> choose ``Run as administrator``.
+7. Once you have the command prompt open in admin mode, type ``setx -m JAVA_HOME "C:\Program Files\Java\jdk-11\bin"`` which will create an environment
+variable called ``JAVA_HOME`` for your computer which points to the folder where we copied the ``jdk-11``.
+8. Close the command prompt
+9. Open ``Anaconda Prompt (miniconda)`` from the start menu
+10. Activate the ``geo`` environment by typing ``conda activate geo``
+11. Run command ``python -c "import r5py"``. If this does not produce any errors, everything works!
+
+Linux/Mac
+~~~~~~~~~
+
+On Linux and Mac, getting the OpenJDK working is slightly easier ...
+
+1. Activate the ``geo`` environment by typing ``conda activate geo`` in a terminal
+2. Install the ``openjdk`` by typing ``mamba install -c conda-forge openjdk=>17.0.3``
+3. Close the terminal. Open the terminal again.
+4. Activate the ``geo`` environment by typing ``conda activate geo``
+5. Run command ``python -c "import r5py"``. If this does not produce any errors, everything works!
 
 General guide for installing packages with Mamba/Conda
 ------------------------------------------------------
