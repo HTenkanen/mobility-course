@@ -54,14 +54,8 @@ Contents
    lessons/L1/readings-for-tomorrow
 
 
-    .. toctree::
-       :maxdepth: 1
-       :caption: Day 2
+.. toctree::
+   :maxdepth: 1
+   :caption: Day 2
 
-       lessons/L2/lesson-overview
-
-
-       lessons/L3/mobilities
-       lessons/L3/trajectory-data-mining
-       lessons/L3/mobility-analytics.ipynb
-       lessons/L2/literature
+   lessons/L2/mobility-analytics.ipynb
