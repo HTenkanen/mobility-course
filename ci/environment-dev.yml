@@ -24,6 +24,7 @@ dependencies:
   - myst-nb
   - nbsphinx
   - networkx
+  - openjdk=>17.0.3
   - osmnx
   - pandana
   - pandas

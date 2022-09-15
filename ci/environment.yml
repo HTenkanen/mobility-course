@@ -22,6 +22,7 @@ dependencies:
   - momepy
   - movingpandas
   - networkx
+  - openjdk=>17.0.3
   - osmnx
   - pandana
   - pandas
