@@ -39,6 +39,7 @@ Contents
 
    course-info/introduction
    course-info/installing-miniconda
+   course-info/literature
    course-info/License-terms
    course-info/attribution
 
@@ -51,6 +52,7 @@ Contents
    lessons/L1/intro-to-python-geostack.ipynb
    lessons/L1/spatial_network_analysis.ipynb
    lessons/L1/exercise-1
+   lessons/L1/readings-for-tomorrow
 
 
     .. toctree::
