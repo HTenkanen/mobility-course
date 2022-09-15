@@ -33,10 +33,10 @@ Visit the `Miniconda download page <https://docs.conda.io/en/latest/miniconda.ht
     :alt: Downloading the latest Miniconda for Windows
 
 Install Miniconda to your computer by double clicking the installer and install it into a directory you want (you might need admin rights).
-Install it to **all users** and use default settings.
+Install it to **local user** and use the default settings.
 
 After the installation is completed, test that the package manager ``conda`` works by
-`opening a command prompt as a admin user <http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/>`_
+`opening an ``Anaconda prompt (miniconda3)`` from the start menu,
 and running command ``conda --version``. If the command returns a version number of conda (e.g. ``conda 4.5.9``) everything is working correctly.
 
 macOS
@@ -85,7 +85,7 @@ Installing mamba
 ~~~~~~~~~~~~~~~~
 
 To get started we will install the mamba package manager in our new Miniconda environment (are you tired of all the snake references yet?).
-We can install mamba by **opening a terminal window or command prompt** in Windows (as an admin user) and running the following:
+We can install mamba by **opening an Anaconda prompt (miniconda)** and running the following:
 
 .. code-block:: bash
 
