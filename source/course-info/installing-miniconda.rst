@@ -159,8 +159,7 @@ On Windows, you need to do a bit of manual work to get OpenJDK working. Follow t
 4. Under the ``C:\Program Files`` create a folder called ``Java`` (requires admin rights)
 5. Copy and paste the ``jdk-11`` folder into the newly create ``C:\Program Files\Java`` directory (requires admin rights).
 6. Open a command prompt in **admin mode** by typing ``cmd`` in the Start menu -> **right click** the Command Prompt icon -> choose ``Run as administrator``.
-7. Once you have the command prompt open in admin mode, type ``setx -m JAVA_HOME "C:\Program Files\Java\jdk-11\bin"`` which will create an environment
-variable called ``JAVA_HOME`` for your computer which points to the folder where we copied the ``jdk-11``.
+7. Once you have the command prompt open in admin mode, type ``setx -m JAVA_HOME "C:\Program Files\Java\jdk-11\bin"`` which will create an environment variable called ``JAVA_HOME`` for your computer which points to the folder where we copied the ``jdk-11``.
 8. Close the command prompt
 9. Open ``Anaconda Prompt (miniconda)`` from the start menu
 10. Activate the ``geo`` environment by typing ``conda activate geo``
