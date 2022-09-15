@@ -18,6 +18,7 @@ dependencies:
   - networkx
   - osmnx
   - pandas
+  - plotly_express
   - pyrosm
   - r5py
   - pip
