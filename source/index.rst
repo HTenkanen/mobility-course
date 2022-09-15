@@ -20,7 +20,6 @@ submit the Python codes you have written, output figures and answers to related 
 
     Each lesson in this course can be turned into an interactive programming session in the browser.
     You can find buttons for activating the python environment using `Binder <https://mybinder.readthedocs.io/en/latest/>`__ at the top of each programming lesson.
-    Students at Finnish higher education institutions are encouraged to use the `CSC notebooks <https://notebooks.csc.fi/>`__ environment.
 
 
 Program
