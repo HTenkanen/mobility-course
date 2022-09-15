@@ -28,6 +28,7 @@ dependencies:
   - pandana
   - pandas
   - plotly_express
+  - pyrosm
   - pysal
   - python-igraph
   - r5py
@@ -43,4 +44,3 @@ dependencies:
   - pip
   - pip:
       - keplergl
-      - git+https://github.com/HTenkanen/pyrosm.git
