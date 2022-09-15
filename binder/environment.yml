@@ -1,0 +1,45 @@
+name: geo
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - access
+  - contextily
+  - cykhash=2.0.0
+  - dash
+  - folium
+  - geopandas
+  - geoplot
+  - geopy
+  - hvplot
+  - jupyterlab=3.0.6
+  - jupyterlab-git
+  - mamba
+  - mapclassify
+  - matplotlib
+  - momepy
+  - movingpandas
+  - networkx
+  - openjdk=>17.0.3
+  - osmnx
+  - pandana
+  - pandas
+  - plotly_express
+  - pysal
+  - python-igraph
+  - r5py
+  - scikit-learn
+  - scikit-mobility
+  - scipy
+  - segregation
+  - spaghetti
+  - splot
+  - spreg
+  - tqdm
+  - urbanaccess
+  - pip
+  - pip:
+      - keplergl
+      - git+https://github.com/HTenkanen/pyrosm.git
