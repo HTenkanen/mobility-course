@@ -157,7 +157,7 @@ On Windows, you need to do a bit of manual work to get OpenJDK working. Follow t
 2. Download the ``Windows/x64 Java Development Kit`` ((sha256) 178.7 MB) from the site by pressing the link
 3. Extract the contents of the Zipfile to your computer, e.g. ``Downloads``. As a result, you should see a folder called ``jdk-11``.
 4. Under the ``C:\Program Files`` create a folder called ``Java`` (requires admin rights)
-5. Copy and paste the ``jdk-11`` folder into the newly create `C:\Program Files\Java`` directory.
+5. Copy and paste the ``jdk-11`` folder into the newly create ``C:\Program Files\Java`` directory (requires admin rights).
 6. Open a command prompt in **admin mode** by typing ``cmd`` in the Start menu -> **right click** the Command Prompt icon -> choose ``Run as administrator``.
 7. Once you have the command prompt open in admin mode, type ``setx -m JAVA_HOME "C:\Program Files\Java\jdk-11\bin"`` which will create an environment
 variable called ``JAVA_HOME`` for your computer which points to the folder where we copied the ``jdk-11``.
