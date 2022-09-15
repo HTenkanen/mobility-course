@@ -45,9 +45,9 @@ Henrikki Tenkanen, Aalto University
 	- Freely available online: https://pythongis.org  
 
 :::
-
+   
 ::: right
-![[Henrikki-2021-cropped-2.jpg | 350]]
+![[Henkka-Albus.jpg| 350]]
 :::
 
 ::: footer
