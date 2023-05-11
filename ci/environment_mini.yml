@@ -4,23 +4,26 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.9
-  - contextily
+  - python=3.10
   - cykhash=2.0.0
+  - fiona=1.8.22
   - folium
-  - geopandas
+  - geopandas=0.12.2
+  - geopandas-base=0.12.2
   - geopy
+  - git
   - jupyterlab=3.0.6
   - jupyterlab-git
+  - libgdal=3.6.2
   - mapclassify
   - matplotlib
-  - movingpandas
   - networkx
+  - openjdk=11.0.1
   - osmnx
   - pandas
-  - plotly_express
   - pyrosm
+  - pysal
+  - python-igraph
   - r5py
-  - pip
-  - pip:
-      - keplergl
+  - shapely=1.8.5
+  - tqdm
