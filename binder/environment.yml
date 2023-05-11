@@ -1,4 +1,4 @@
-name: sm-test2
+name: base
 
 channels:
   - conda-forge
