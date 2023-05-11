@@ -1,4 +1,4 @@
----
+ ---
 theme: css/aalto_eng.css
 width: 1366
 height: 768
@@ -60,7 +60,7 @@ Henrikki Tenkanen, Aalto University
 <!-- slide template="[[black_main_template]]" -->
 
 # Programme
-![[Augsburg-2022-programme.png | 800]]
+![[Aalto_2023_programme.png | 800]]
 
 ::: footer
 Henrikki Tenkanen, Aalto University
