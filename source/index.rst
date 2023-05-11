@@ -27,7 +27,7 @@ Program
 
 The planned schedule for the course:
 
-.. figure:: ../img/Augsburg-2022-programme.png
+.. figure:: ../img/Aalto_2023_programme.png
 
 Contents
 --------
@@ -44,7 +44,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: Day 1
+   :caption: Contents
 
    lessons/L1/giscience-and-sustainable-mobility
    lessons/L1/git-basics
@@ -54,8 +54,3 @@ Contents
    lessons/L1/readings-for-tomorrow
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Day 2
-
-   lessons/L2/mobility-analytics.ipynb
