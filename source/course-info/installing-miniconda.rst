@@ -103,7 +103,8 @@ After installing `mamba`, the main steps for creating and using a conda environm
 2. activate the environment
 3. start using the environment (e.g. launch the JupyterLab and start coding, see below)
 
-We have prepared a ready-made environment file for this course (called ``environment_mini_XX.yml``). You can download the file from here (pick according your operating system):
+We have prepared a ready-made environment file for this course (called ``environment_mini_XX.yml``). You can download the file from the links below. Pick the link according your operating system
+(on the download page: righ-click the ``Raw`` button -> And press ``Save link as ..``):
 
 - `Windows <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini_windows.yml>`__
 - `MacOS / Linux <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini_unix.yml>`__
