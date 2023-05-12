@@ -103,7 +103,11 @@ After installing `mamba`, the main steps for creating and using a conda environm
 2. activate the environment
 3. start using the environment (e.g. launch the JupyterLab and start coding, see below)
 
-We have prepared a ready-made environment file for this course (called ``environment_mini.yml``). You can  `DOWNLOAD IT FROM HERE <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini.yml>`__.
+We have prepared a ready-made environment file for this course (called ``environment_mini_XX.yml``). You can download the file from here (pick according your operating system):
+
+- `Windows <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini_windows.yml>`__
+- `MacOS / Linux <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini_unix.yml>`__
+
 After downloading the environment file, run the following commands on the same folder where you downloaded it.
 If you don't know how to navigate between different folders, check these short tutorials for `terminal <https://riptutorial.com/terminal/example/26023/basic-navigation-commands>`_ and `command prompt (Windows) <https://riptutorial.com/cmd/example/8646/navigating-in-cmd>`_.
 The commands below work similarly in all operating systems where you have Miniconda (or Anaconda) installed:
@@ -168,13 +172,7 @@ On Windows, you need to do a bit of manual work to get OpenJDK working. Follow t
 Linux/Mac
 ~~~~~~~~~
 
-On Linux and Mac, getting the OpenJDK working is slightly easier ...
-
-1. Activate the ``geo`` environment by typing ``conda activate geo`` in a terminal
-2. Install the ``openjdk`` by typing ``mamba install -c conda-forge openjdk=>17.0.3``
-3. Close the terminal. Open the terminal again.
-4. Activate the ``geo`` environment by typing ``conda activate geo``
-5. Run command ``python -c "import r5py"``. If this does not produce any errors, everything works!
+On Linux and Mac, getting the OpenJDK working is slightly easier ... You don't need to do anything as the Java JDK came with the Python environment!
 
 General guide for installing packages with Mamba/Conda
 ------------------------------------------------------
