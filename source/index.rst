@@ -1,33 +1,40 @@
 .. figure:: img/Sustainable_mobility_banner.png
 
-*Special course*: **Spatial data science for sustainable mobility** deals with the use of spatial data science approaches to study sustainable mobility and accessibility in urban environments.
+*Guest lecture, Technical University Munich*: **Spatial data and approaches to study sustainable transport** deals with the use of spatial data science approaches to study sustainable mobility and accessibility in urban environments.
 
 After participating in the event, the student is able to:
 
 - Understand how human well-being and capabilities relate to mobility, and how those can be analyzed using computational approaches
-- Use open-source spatial analysis libraries to study spatial mobility and accessibility
 - Understand how modern computational technologies can be used to support open science and reproducible research
 - Assess the selected analytical tools and understand their benefits and limitations
 
-Course format
--------------
+..
+  - Use open-source spatial analysis libraries to study spatial mobility and accessibility
 
-The majority of this course will be spent in front of a computer writing code with the Python language.
-Most exercises in this course involve real world examples and data. For each exercise, you may be asked to
-submit the Python codes you have written, output figures and answers to related questions.
+..
+    Course format
+    -------------
 
-.. admonition:: Interactive contents
+    The majority of this course will be spent in front of a computer writing code with the Python language.
+    Most exercises in this course involve real world examples and data. For each exercise, you may be asked to
+    submit the Python codes you have written, output figures and answers to related questions.
 
-    Each lesson in this course can be turned into an interactive programming session in the browser.
-    You can find buttons for activating the python environment using `Binder <https://mybinder.readthedocs.io/en/latest/>`__ at the top of each programming lesson.
+    .. admonition:: Interactive contents
+
+        Each lesson in this course can be turned into an interactive programming session in the browser.
+        You can find buttons for activating the python environment using `Binder <https://mybinder.readthedocs.io/en/latest/>`__ at the top of each programming lesson.
 
 
 Program
 -------
 
-The planned schedule for the course:
+The planned schedule 6.7.2023:
 
-.. figure:: ../img/Aalto_2023_programme.png
+- **08:00 - 9:30**: Intro lecture: The role of spatial data science in understanding sustainable mobility
+- **11:30 - 13:00**: Tutorial: Using open source Python tools to analyze the levels of access by different travel modes
+
+..
+  .. figure:: ../img/Aalto_2023_programme.png
 
 Contents
 --------
