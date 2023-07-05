@@ -67,4 +67,4 @@ This website is a living document that changes slightly each time I teach these 
 However, all the earlier versions of the site are available from here:
 
 - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
-- `Materials for short course at Augsburg University in 2022 <https://sumogis.readthedocs.io/en/>`__
+- `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
