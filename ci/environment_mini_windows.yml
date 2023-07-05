@@ -18,6 +18,7 @@ dependencies:
   - mapclassify
   - matplotlib
   - networkx
+  - numpy=1.23.5
   - osmnx
   - pandas
   - pyrosm
