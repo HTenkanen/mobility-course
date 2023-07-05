@@ -60,3 +60,11 @@ Contents
    .. lessons/L1/exercise-1
 
 
+Looking for earlier versions?
+-----------------------------
+
+This website is a living document that changes slightly each time I teach these materials.
+However, all the earlier versions of the site are available from here:
+
+- `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
+- `Materials for short course at Augsburg University in 2022 <https://sumogis.readthedocs.io/en/>`__
