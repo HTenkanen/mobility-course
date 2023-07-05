@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'SDS for Sustainable Mobility'
-copyright = '2022, Henrikki Tenkanen, Dept. of Built Environment, Aalto University'
+copyright = '2023, Henrikki Tenkanen, Dept. of Built Environment, Aalto University'
 author = 'Henrikki Tenkanen'
 
 # -- General configuration ---------------------------------------------------
