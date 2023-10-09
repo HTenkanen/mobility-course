@@ -1,0 +1,29 @@
+name: geo
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.5
+  - geopandas=0.14.0
+  - geopy=2.4.0
+  - ipyleaflet=0.17.4
+  - jupyterlab=3.6.5
+  - leafmap=0.27.0
+  - mapclassify=2.6.1
+  - matplotlib=3.8.0
+  - momepy=0.6.0
+  - movingpandas=0.17.1
+  - openjdk=20.0.2
+  - osmnx=1.6.0
+  - owslib=0.29.2
+  - pandas<2.1.0
+  - plotly=5.17.0
+  - pyogrio=0.6.0
+  - python-igraph=0.10.8
+  - pysal=23.1
+  - r5py>=0.1.1.dev0
+  - pip
+  - pip:
+    - r5py.sampledata.helsinki>=0.1.1.dev0
+    - r5py.sampledata.sao_paulo>=0.1.1.dev0

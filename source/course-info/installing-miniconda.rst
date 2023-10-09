@@ -118,8 +118,11 @@ and executing the following command in the directory where you downloaded the `.
 
 .. code-block::
 
-    mamba env create -f environment.yml
+    # Windows users, should run this command
+    mamba env create -f environment_windows.yml
 
+    # Mac / Linux users, should run this command
+    mamba env create -f environment_unix.yml
 
 2. Activate the environment:
 
