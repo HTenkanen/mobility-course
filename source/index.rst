@@ -54,15 +54,13 @@ Contents
    course-info/introduction
    lessons/L1/giscience-and-sustainable-mobility
 
-.. .. toctree::
+ .. toctree::
    :maxdepth: 1
-   :caption: Contents
+   :caption: Tutorials
 
-       lessons/L1/giscience-and-sustainable-mobility
-       lessons/L1/git-basics
-       lessons/L1/intro-to-python-geostack.ipynb
-       lessons/L1/spatial_network_analysis.ipynb
-       .. lessons/L1/exercise-1
+   lessons/L1/intro-to-python-geostack.ipynb
+   .. lessons/L1/spatial_network_analysis.ipynb
+   .. lessons/L1/exercise-1
 
 
     Looking for earlier versions?
