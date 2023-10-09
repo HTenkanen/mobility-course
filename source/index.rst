@@ -54,21 +54,22 @@ Contents
    course-info/introduction
    lessons/L1/giscience-and-sustainable-mobility
 
- .. toctree::
+.. toctree::
    :maxdepth: 1
    :caption: Tutorials
 
    lessons/L1/intro-to-python-geostack.ipynb
+
    .. lessons/L1/spatial_network_analysis.ipynb
    .. lessons/L1/exercise-1
 
 
-    Looking for earlier versions?
-    -----------------------------
+     ..  Looking for earlier versions?
+     ..  -----------------------------
 
-    This website is a living document that changes slightly each time I teach these materials.
-    However, all the earlier versions of the site are available from here:
+     ..  This website is a living document that changes slightly each time I teach these materials.
+       However, all the earlier versions of the site are available from here:
 
-    - `Materials for speical course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
-    - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
-    - `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
+       - `Materials for speical course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
+       - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
+       - `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
