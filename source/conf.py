@@ -81,6 +81,9 @@ html_theme_options = {
         # https://github.com/jaimergp/condacolab
         # But it requires actions from the user nontheless, so atm it's a no-go.
         #"colab_url": "https://colab.research.google.com"
+
+    # Possible announcement for the page
+    "announcement": ("📢 You can now prepare for the course by installing the Python libraries! Check the instructions on a dedicated page from the left panel. 📢"),
     },
 }
 
