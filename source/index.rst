@@ -47,7 +47,11 @@ Contents
    course-info/License-terms
    course-info/attribution
 
-   .. course-info/introduction
+.. toctree::
+   :maxdepth: 1
+   :caption: Presentations
+
+   course-info/introduction
 
 .. .. toctree::
    :maxdepth: 1
