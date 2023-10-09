@@ -52,6 +52,7 @@ Contents
    :caption: Presentations
 
    course-info/introduction
+   lessons/L1/giscience-and-sustainable-mobility
 
 .. .. toctree::
    :maxdepth: 1
