@@ -113,8 +113,8 @@ After downloading the environment file, run the following commands on the same f
 If you don't know how to navigate between different folders, check these short tutorials for `terminal <https://riptutorial.com/terminal/example/26023/basic-navigation-commands>`_ and `command prompt (Windows) <https://riptutorial.com/cmd/example/8646/navigating-in-cmd>`_.
 The commands below work similarly in all operating systems where you have Miniconda (or Anaconda) installed:
 
-1. Create the Python environment based on the file that you downloaded by using a terminal (or command prompt)
-and executing the following command in the directory where you downloaded the `.yml` file:
+1. **Create the Python environment** based on the file that you downloaded by using a terminal (or command prompt)
+and executing the following command in the directory where you downloaded the `.yml` file (pick the one for your operating system):
 
 .. code-block::
 
@@ -124,7 +124,7 @@ and executing the following command in the directory where you downloaded the `.
     # Mac / Linux users, should run this command
     mamba env create -f environment_unix.yml
 
-2. Activate the environment:
+2. **Activate the environment**:
 
 .. code-block::
 
@@ -132,7 +132,16 @@ and executing the following command in the directory where you downloaded the `.
 
 You should now see the name of the environment at the start of the command line.
 
-3. Launch JupyterLab IDE
+3. **Test that the installation works** by running follow command in terminal/command prompt:
+
+.. code-block::
+
+    python -c "import r5py; import geopandas; import fiona"
+
+In case the command runs and does not return any errors, everything works!
+If not, i) ensure that you have activated the environment, (step 2 above), ii) ensure that all packages installed properly (step 1).
+
+4. **Launch JupyterLab IDE**
 
 After you have installed all required packages, you can start working in a local Jupyter Lab environment that is
 linked to your ``geo`` conda environment by launching jupyter lab on the command line.
@@ -144,11 +153,6 @@ It's a good idea to first navigate to the folder where your Jupyter Notebook -fi
     jupyter lab
 
 Note, Jupyter Lab will probably prompt you to "Build" the installation in order to get the git-plugin to show.
-
-.. hint::
-
-    If you want to install some additional packages to your conda environment, ensure you have activated it (step 2 above) and
-    install the package that you wish to install following the guidelines below.
 
 Note about OpenJDK Java Development Kit
 ---------------------------------------
@@ -225,11 +229,3 @@ After installation is completed, **you can start a JupyterLab instance** by runn
 After running the command, JupyterLab should open up automatically in a browser window. Notice that the JupyterLab will always open in a directory
 from where you launched it in the terminal / command prompt.
 
-Git extension for JupyterLab
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-After you have installed JupyterLab, you can also add the JupyterLab Git extension to your environment in case you need to interact e.g. with GitHub:
-
-.. code-block::
-
-    conda install -c conda-forge jupyterlab-git
