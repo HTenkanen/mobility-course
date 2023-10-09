@@ -24,16 +24,16 @@ After participating in the event, the student is able to:
         You can find buttons for activating the python environment using `Binder <https://mybinder.readthedocs.io/en/latest/>`__ at the top of each programming lesson.
 
 
-Program
--------
+   Program
+   -------
 
-The planned schedule 6.7.2023:
+   The planned schedule for the course:
 
-- **08:00 - 9:30**: Intro lecture: The role of spatial data science in understanding sustainable mobility
-- **11:30 - 13:00**: Tutorial: Using open source Python tools to analyze the levels of access by different travel modes
+   - **10.10 10:00-17:00**: Spatial data science for understanding sustainable mobility. Tutorial
+   - **11:30 - 13:00**: Tutorial: Using open source Python tools to analyze the levels of access by different travel modes
 
-..
-  .. figure:: ../img/Aalto_2023_programme.png
+   ..
+     .. figure:: ../img/Aalto_2023_programme.png
 
 Contents
 --------
