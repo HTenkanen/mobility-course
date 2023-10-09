@@ -27,7 +27,7 @@ Windows
 Visit the `Miniconda download page <https://docs.conda.io/projects/miniconda/en/latest/#latest-miniconda-installer-links>`__ and download the latest
 **Miniconda3 Windows 64-bit** installer for Windows.
 
-.. figure:: ../img/miniconda-install-windows.png
+.. figure:: img/miniconda-install-windows.png
     :width: 600px
     :align: center
     :alt: Downloading the latest Miniconda for Windows
@@ -44,7 +44,7 @@ macOS
 Visit the `Miniconda download page <https://docs.conda.io/en/latest/miniconda.html#macosx-installers>`__ and download the latest
 Python installer for macOSX.
 
-.. figure:: img/miniconda-osx.png
+.. figure:: img/miniconda-install-macos.png
     :width: 600px
     :align: center
     :alt: Downloading the latest Miniconda for Mac
