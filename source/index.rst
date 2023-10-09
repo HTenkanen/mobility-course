@@ -31,7 +31,7 @@ The planned program for the course (see detailed schedule from the course introd
 
 - **Day 1**: Introduction to Spatial data science for sustainable mobility; Tutorial 1: Getting started with Python GIS
 - **Day 2**: Tutorial 2: Using open source Python tools to analyze the levels of access by different travel modes
-- **Day 3**:
+- **Day 3**: Introduction to Sustainable Cities and Mobilities; Tutorial 3: Trajectory data mining with Python
 
 
 Contents
