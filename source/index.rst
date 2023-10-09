@@ -9,31 +9,36 @@ After participating in the event, the student is able to:
 - Understand how modern computational technologies can be used to support open science and reproducible research
 - Assess the selected analytical tools and understand their benefits and limitations
 
+Course format
+-------------
 
-..
-    Course format
-    -------------
+The majority of this course will be spent in front of a computer writing code with the Python language.
+Most exercises in this course involve real world examples and data. For each exercise, you may be asked to
+submit the Python codes you have written, output figures and answers to related questions.
 
-    The majority of this course will be spent in front of a computer writing code with the Python language.
-    Most exercises in this course involve real world examples and data. For each exercise, you may be asked to
-    submit the Python codes you have written, output figures and answers to related questions.
+.. admonition:: Interactive contents
 
-    .. admonition:: Interactive contents
-
-        Each lesson in this course can be turned into an interactive programming session in the browser.
-        You can find buttons for activating the python environment using `Binder <https://mybinder.readthedocs.io/en/latest/>`__ at the top of each programming lesson.
+    Each lesson in this course can be turned into an interactive programming session in the browser.
+    You can find buttons for activating the python environment using `Binder <https://mybinder.readthedocs.io/en/latest/>`__ at the top of each programming lesson.
 
 
-   Program
-   -------
+Program
+-------
 
-   The planned schedule for the course:
+The planned program for the course (see detailed schedule from the course introduction slides):
 
-   - **10.10 10:00-17:00**: Spatial data science for understanding sustainable mobility. Tutorial
-   - **11:30 - 13:00**: Tutorial: Using open source Python tools to analyze the levels of access by different travel modes
+- **Day 1**: Introduction to Spatial data science for sustainable mobility; Tutorial 1: Getting started with Python GIS.
+- **Day 2**: Tutorial 2: Using open source Python tools to analyze the levels of access by different travel modes.
+- **Day 3**: Introduction to Sustainable Cities and Mobilities; Tutorial 3: Trajectory data mining with Python.
 
-   ..
-     .. figure:: ../img/Aalto_2023_programme.png
+..  Looking for earlier versions?
+    -----------------------------
+    This website is a living document that changes slightly each time I teach these materials.
+    However, all the earlier versions of the site are available from here:
+    - `Materials for speical course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
+    - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
+    - `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
+
 
 Contents
 --------
@@ -47,25 +52,23 @@ Contents
    course-info/License-terms
    course-info/attribution
 
-   .. course-info/introduction
-
-.. .. toctree::
+.. toctree::
    :maxdepth: 1
-   :caption: Contents
+   :caption: Presentations
 
-       lessons/L1/giscience-and-sustainable-mobility
-       lessons/L1/git-basics
-       lessons/L1/intro-to-python-geostack.ipynb
-       lessons/L1/spatial_network_analysis.ipynb
-       .. lessons/L1/exercise-1
+   course-info/introduction
+   lessons/L1/giscience-and-sustainable-mobility
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutorials
 
-    Looking for earlier versions?
-    -----------------------------
+   lessons/L1/intro-to-python-geostack.ipynb
 
-    This website is a living document that changes slightly each time I teach these materials.
-    However, all the earlier versions of the site are available from here:
+.. lessons/L1/spatial_network_analysis.ipynb
 
-    - `Materials for speical course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
-    - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
-    - `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
+.. toctree::
+   :maxdepth: 1
+   :caption: Exercises
+
+   lessons/L1/exercise-1
