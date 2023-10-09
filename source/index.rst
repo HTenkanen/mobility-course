@@ -1,15 +1,14 @@
 .. figure:: img/Sustainable_mobility_banner.png
 
-*Guest lecture, Technical University Munich*: **Spatial data and approaches to study sustainable transport** deals with the use of spatial data science approaches to study sustainable mobility and accessibility in urban environments.
+*Block course, University of Augsburg*: **GeoPython: Spatial data science for sustainable mobility** deals with the use of spatial data science approaches to study sustainable mobility and accessibility in urban environments.
 
 After participating in the event, the student is able to:
 
 - Understand how human well-being and capabilities relate to mobility, and how those can be analyzed using computational approaches
+- Use open-source spatial analysis libraries to study spatial mobility and accessibility
 - Understand how modern computational technologies can be used to support open science and reproducible research
 - Assess the selected analytical tools and understand their benefits and limitations
 
-..
-  - Use open-source spatial analysis libraries to study spatial mobility and accessibility
 
 ..
     Course format
@@ -49,15 +48,15 @@ Contents
    course-info/License-terms
    course-info/attribution
 
-.. toctree::
+.. .. toctree::
    :maxdepth: 1
    :caption: Contents
 
-   lessons/L1/giscience-and-sustainable-mobility
-   lessons/L1/git-basics
-   lessons/L1/intro-to-python-geostack.ipynb
-   lessons/L1/spatial_network_analysis.ipynb
-   .. lessons/L1/exercise-1
+       lessons/L1/giscience-and-sustainable-mobility
+       lessons/L1/git-basics
+       lessons/L1/intro-to-python-geostack.ipynb
+       lessons/L1/spatial_network_analysis.ipynb
+       .. lessons/L1/exercise-1
 
 
 Looking for earlier versions?
@@ -66,5 +65,6 @@ Looking for earlier versions?
 This website is a living document that changes slightly each time I teach these materials.
 However, all the earlier versions of the site are available from here:
 
+- `Materials for speical course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
 - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
 - `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
