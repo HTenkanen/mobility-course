@@ -24,10 +24,10 @@ Tips and tricks for Windows, macOS and Linux users below.
 Windows
 ~~~~~~~~
 
-Visit the `Miniconda download page <https://docs.conda.io/en/latest/miniconda.html#windows-installers>`__ and download the latest
+Visit the `Miniconda download page <https://docs.conda.io/projects/miniconda/en/latest/#latest-miniconda-installer-links>`__ and download the latest
 **Miniconda3 Windows 64-bit** installer for Windows.
 
-.. figure:: img/miniconda-windows.png
+.. figure:: ../img/miniconda-install-windows.png
     :width: 600px
     :align: center
     :alt: Downloading the latest Miniconda for Windows
@@ -42,7 +42,7 @@ and running command ``conda --version``. If the command returns a version number
 macOS
 ~~~~~~~~
 Visit the `Miniconda download page <https://docs.conda.io/en/latest/miniconda.html#macosx-installers>`__ and download the latest
-Python 3.8 installer for macOSX.
+Python installer for macOSX.
 
 .. figure:: img/miniconda-osx.png
     :width: 600px
@@ -64,7 +64,7 @@ Install Miniconda 3 and add it to system path using Terminal:
     nano ~/.bashrc
 
     # Add following line at the end of the file and save (EDIT ACCORDING YOUR INSTALLATION PATH)
-    export PATH=$PATH:/PATH_TO_MINICONDA/miniconda3/bin:/PATH_TO_MINICONDA/miniconda3/lib/python3.8/site-packages
+    export PATH=$PATH:/PATH_TO_MINICONDA/miniconda3/bin:/PATH_TO_MINICONDA/miniconda3/lib/python3.11/site-packages
 
 Install the course environment
 ------------------------------
@@ -76,7 +76,7 @@ Python environment** for the selected Python packages (e.g. for the ones used du
 A python environment is a separate installation including all required libraries as well as
 the Python interpreter. It is a good practice to install all packages (if possible) from the same
 conda channel (e.g. ``conda-forge`` which we recommend), and not to mix conda and pip for installations
-if not strictly necessary.
+if not necessary.
 
 Conda has an excellent documentation about `creating and managing conda environments <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>`__
 where you can check details of the used commands.
@@ -84,7 +84,7 @@ where you can check details of the used commands.
 Installing mamba
 ~~~~~~~~~~~~~~~~
 
-To get started we will install the mamba package manager in our new Miniconda environment (are you tired of all the snake references yet?).
+To get started we will install the mamba package manager in our new Miniconda environment.
 We can install mamba by **opening an Anaconda prompt (miniconda)** and running the following:
 
 .. code-block:: bash
@@ -103,11 +103,11 @@ After installing `mamba`, the main steps for creating and using a conda environm
 2. activate the environment
 3. start using the environment (e.g. launch the JupyterLab and start coding, see below)
 
-We have prepared a ready-made environment file for this course (called ``environment_mini_XX.yml``). You can download the file from the links below. Pick the link according your operating system
+We have prepared a ready-made environment file for you (called ``environment_XX.yml``). You can download the file from the links below. Pick the link according your operating system
 (on the download page: righ-click the ``Raw`` button -> And press ``Save link as ..``):
 
-- `Windows <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini_windows.yml>`__
-- `MacOS / Linux <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_mini_unix.yml>`__
+- `Windows <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_windows.yml>`__
+- `MacOS / Linux <https://github.com/htenkanen/mobility-course/blob/main/ci/environment_unix.yml>`__
 
 After downloading the environment file, run the following commands on the same folder where you downloaded it.
 If you don't know how to navigate between different folders, check these short tutorials for `terminal <https://riptutorial.com/terminal/example/26023/basic-navigation-commands>`_ and `command prompt (Windows) <https://riptutorial.com/cmd/example/8646/navigating-in-cmd>`_.
@@ -147,33 +147,13 @@ Note, Jupyter Lab will probably prompt you to "Build" the installation in order 
     If you want to install some additional packages to your conda environment, ensure you have activated it (step 2 above) and
     install the package that you wish to install following the guidelines below.
 
-Install OpenJDK Java Development Kit
-------------------------------------
+Note about OpenJDK Java Development Kit
+---------------------------------------
 
-``r5py`` library relies on Java JDK engine. Hence to get the ``r5py`` working, you need to install OpenJDK to your computer.
-Below are instructions how to do that.
+``r5py`` library relies on Java JDK engine. Hence to get the ``r5py`` working, you need to have OpenJDK to your computer.
+In case you have installed the Python environment as instructed above,
+you don't need to do anything as the Java JDK came with the Python environment!
 
-Windows
-~~~~~~~~
-
-On Windows, you need to do a bit of manual work to get OpenJDK working. Follow these steps:
-
-1. Go to `https://jdk.java.net/java-se-ri/11 <https://jdk.java.net/java-se-ri/11>`__ website
-2. Download the ``Windows/x64 Java Development Kit`` ((sha256) 178.7 MB) from the site by pressing the link
-3. Extract the contents of the Zipfile to your computer, e.g. ``Downloads``. As a result, you should see a folder called ``jdk-11``.
-4. Under the ``C:\Program Files`` create a folder called ``Java`` (requires admin rights)
-5. Copy and paste the ``jdk-11`` folder into the newly create ``C:\Program Files\Java`` directory (requires admin rights).
-6. Open a command prompt in **admin mode** by typing ``cmd`` in the Start menu -> **right click** the Command Prompt icon -> choose ``Run as administrator``.
-7. Once you have the command prompt open in admin mode, type ``setx -m JAVA_HOME "C:\Program Files\Java\jdk-11\bin"`` which will create an environment variable called ``JAVA_HOME`` for your computer which points to the folder where we copied the ``jdk-11``.
-8. Close the command prompt
-9. Open ``Anaconda Prompt (miniconda)`` from the start menu
-10. Activate the ``geo`` environment by typing ``conda activate geo``
-11. Run command ``python -c "import r5py"``. If this does not produce any errors, everything works!
-
-Linux/Mac
-~~~~~~~~~
-
-On Linux and Mac, getting the OpenJDK working is slightly easier ... You don't need to do anything as the Java JDK came with the Python environment!
 
 General guide for installing packages with Mamba/Conda
 ------------------------------------------------------
@@ -203,7 +183,7 @@ You can **install other useful packages in a similar way:**
 .. code-block::
 
     mamba install -c conda-forge matplotlib
-    mamba install -c conda-forge bokeh
+    mamba install -c conda-forge hvplot
     mamba install -c conda-forge geopandas
 
 .. admonition:: Conda channels
@@ -221,9 +201,10 @@ You can **install other useful packages in a similar way:**
 Installing JupyterLab
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-We use `JupyterLab <https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html>`__ as the main programming environment during this course.
-JupyterLab can be installed like any other packages using the conda install command.
+We use `JupyterLab <https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html>`__ as the main programming environment.
+JupyterLab also comes with the environment that we provided for you above.
 
+In case you are interested to use it in other environments, you can install it like any other packages using the conda install command.
 For other options and more information, take a look at the `JupyterLab installation instructions <https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>`__.
 
 **Install JupyterLab from the conda-forge channel:**
@@ -232,20 +213,20 @@ For other options and more information, take a look at the `JupyterLab installat
 
     mamba install -c conda-forge jupyterlab
 
-After installation is completed, you can start a JupyterLab instance by running this command (notice the space between the words!):
+After installation is completed, **you can start a JupyterLab instance** by running this command (notice the space between the words!):
 
 .. code-block::
 
     jupyter lab
 
-After running the command, JupyterLab should open up automatically in a browser window.
+After running the command, JupyterLab should open up automatically in a browser window. Notice that the JupyterLab will always open in a directory
+from where you launched it in the terminal / command prompt.
 
 Git extension for JupyterLab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After you have installed JupyterLab, you can also add the JupyterLab Git extension to your environment:
+After you have installed JupyterLab, you can also add the JupyterLab Git extension to your environment in case you need to interact e.g. with GitHub:
 
 .. code-block::
 
     conda install -c conda-forge jupyterlab-git
-
