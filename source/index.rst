@@ -42,11 +42,12 @@ Contents
    :maxdepth: 1
    :caption: Course information
 
-   course-info/introduction
    course-info/installing-miniconda
    course-info/literature
    course-info/License-terms
    course-info/attribution
+
+   .. course-info/introduction
 
 .. .. toctree::
    :maxdepth: 1
