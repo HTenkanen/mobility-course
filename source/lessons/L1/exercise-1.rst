@@ -22,3 +22,19 @@ Solutions
 ---------
 
 I will provide example solutions for the exercises after the course (will send via email).
+
+Hints
+-----
+
+In Exercise 1, you need to download the administrative boundaries for Augsburg. To do this, you can use `osmnx` with following code that will only download the "admin level 10" boundaries from OpenStreetMap (i.e. the districts):
+
+.. code:: python
+
+    import osmnx as ox
+
+    query = "Augsburg, Germany"
+    boundaries = ox.features_from_place(query, tags={"admin_level": "10"})
+    boundaries.explore()
+
+.. figure:: img/Augsburg_boundaries.png
+
