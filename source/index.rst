@@ -64,8 +64,7 @@ Contents
    :caption: Tutorials
 
    lessons/L1/intro-to-python-geostack.ipynb
-
-.. lessons/L1/spatial_network_analysis.ipynb
+   lessons/L2/r5py_demo.ipynb
 
 .. toctree::
    :maxdepth: 1
