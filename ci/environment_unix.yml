@@ -7,6 +7,8 @@ dependencies:
   - python=3.11.5
   - geopandas=0.14.0
   - geopy=2.4.0
+  - geoviews=
+  - hvplot=0.8.3
   - ipyleaflet=0.17.4
   - jupyterlab=3.6.5
   - leafmap=0.27.0

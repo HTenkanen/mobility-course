@@ -8,6 +8,7 @@ dependencies:
   - fiona=1.8.22
   - geopandas=0.14.0
   - geopy=2.4.0
+  - hvplot=0.8.3
   - ipyleaflet=0.17.4
   - jupyterlab=3.6.5
   - leafmap=0.27.0
