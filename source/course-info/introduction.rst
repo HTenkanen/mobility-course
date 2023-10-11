@@ -1,5 +1,5 @@
-D1: Introduction to the course
-==============================
+Introduction to the course
+==========================
 
 .. raw:: html
 

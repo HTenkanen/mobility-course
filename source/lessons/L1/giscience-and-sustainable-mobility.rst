@@ -1,5 +1,5 @@
-D1: SDS & Sustainable mobility
-==============================
+SDS & Sustainable mobility
+==========================
 
 .. raw:: html
 
