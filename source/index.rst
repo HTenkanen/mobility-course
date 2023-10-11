@@ -58,6 +58,7 @@ Contents
 
    course-info/introduction
    lessons/L1/giscience-and-sustainable-mobility
+   lessons/L3/sustainable-mobility-analytics
 
 .. toctree::
    :maxdepth: 1
@@ -65,6 +66,7 @@ Contents
 
    lessons/L1/intro-to-python-geostack.ipynb
    lessons/L2/r5py_demo.ipynb
+   lessons/L3/mobility-analytics.ipynb
 
 .. toctree::
    :maxdepth: 1
