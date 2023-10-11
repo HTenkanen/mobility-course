@@ -38,3 +38,11 @@ In Exercise 1, you need to download the administrative boundaries for Augsburg. 
 
 .. figure:: img/Augsburg_boundaries.png
 
+To download the buildings from the area of the boundaries, you can do following:
+
+.. code:: python
+
+    buildings = ox.features_from_polygon(boundaries.unary_union, tags={"building": True})
+
+
+
