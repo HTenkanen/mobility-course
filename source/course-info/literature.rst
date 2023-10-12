@@ -6,6 +6,23 @@ Here, we list only a fraction of resources that we have found useful or which ha
 **Note:** These are not obligatory readings for the registered students, but good places to start if the topics interest you more broadly.
 We will specify in the Exercises if there are any articles that you should read in addition to the lecture materials (unlikely during this year).
 
+Python GIS
+----------
+
+- Tenkanen, H., V. Heikinheimo & D. Whipp (forthcoming). **Free online book**: `Introduction to Python for Geographic Data Analysis <https://python-gis-book.readthedocs.org/>`__. CRC Press.
+- Rey, S., D. Arribas-Bel & L. Wolf (2023). **Free online book**: `Geographic Data Science with Python <https://geographicdata.science/book/intro.html>`__ . CRC Press.
+- Automating GIS Processes -course (2022). Free `online course <https://autogis-site.readthedocs.io/en/2022/>`__ about Python GIS.
+- Geo-Python -course (2023). Free `online course <https://geo-python-site.readthedocs.io/en/latest/>`__ that teaches the basics of Python for geo-minded people.
+
+Spatial accessibility
+---------------------
+
+- Fink, C., W. Klumpenhouwer, M. Saraiva, R. Pereira & H. Tenkanen (2023). `r5py: Rapid Realistic Routing with Python <https://r5py.readthedocs.io/en/latest/>`__
+- Saraiva, M. R. Pereira, D. Herszenhut, C. Kaue Braga & M. Wiggington Conway (2023). `r5r: Rapid Realistic Routing with R <https://ipeagit.github.io/r5r/index.html>`__
+- Pereira R. & D. Herszenhut (2023). Free online book: `Introduction to urban accessibility <https://ipeagit.github.io/intro_access_book/>`__
+- Willberg, E., H. Tenkanen, H. Miller, R. Pereira & T. Toivonen (2023). `Measuring just accessibility within planetary boundaries <https://www.tandfonline.com/doi/full/10.1080/01441647.2023.2240958>`__. *Transport Reviews.*
+- Tenkanen, H., R. Pereira, E. Arcaute & M. Gonzalez (2023). Special Issue: `Advances in geospatial approaches to transport networks and sustainable mobility <https://journals.sagepub.com/doi/full/10.1177/23998083231207768>`__. *Environment and Planning B: Urban analytics and City Science*
+
 Sustainability
 --------------
 
