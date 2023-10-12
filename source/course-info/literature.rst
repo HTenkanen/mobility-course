@@ -1,10 +1,8 @@
 Recommended readings
 ====================
 
-Thinking of the breadth of the scope in this course (sustainability + SDS), there are countless of valuable articles, books and other resources that are "good reads".
-Here, we list only a fraction of resources that we have found useful or which have been important in these fields in one way or another.
-**Note:** These are not obligatory readings for the registered students, but good places to start if the topics interest you more broadly.
-We will specify in the Exercises if there are any articles that you should read in addition to the lecture materials (unlikely during this year).
+Thinking of the breadth of the scope in this course (sustainable mobility + SDS), there are countless of valuable articles, books and other resources that are "good reads".
+Here, we list only a fraction of resources that we think can be useful to learn more about the topics.
 
 Python GIS
 ----------
