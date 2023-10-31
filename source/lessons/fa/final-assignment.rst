@@ -1,13 +1,10 @@
 Final assignment
 ================
 
-Start your final report here
-----------------------------
+.. admonition:: Start your final report here
 
-Start by **downloading the Jupyter Notebook template** for your final report `FROM HERE <https://sumogis.readthedocs.io/en/latest/lessons/fa/final_assignment.html>`__.
+    Start by **downloading the Jupyter Notebook template** for your final report `FROM HERE <https://sumogis.readthedocs.io/en/latest/lessons/fa/final_assignment.html>`__.
 
-Instructions
-------------
 
 .. raw:: html
 
