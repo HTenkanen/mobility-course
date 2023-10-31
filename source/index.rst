@@ -31,13 +31,15 @@ The planned program for the course (see detailed schedule from the course introd
 - **Day 2**: Tutorial 2: Using open source Python tools to analyze the levels of access by different travel modes.
 - **Day 3**: Introduction to Sustainable Cities and Mobilities; Tutorial 3: Trajectory data mining with Python.
 
-..  Looking for earlier versions?
-    -----------------------------
-    This website is a living document that changes slightly each time I teach these materials.
-    However, all the earlier versions of the site are available from here:
-    - `Materials for speical course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
-    - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
-    - `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
+Looking for earlier versions?
+-----------------------------
+
+This website is a living document that changes slightly each time I teach these materials.
+However, all the earlier versions of the site are available from here:
+
+- `Materials for special course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
+- `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
+- `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
 
 
 Contents
@@ -73,3 +75,4 @@ Contents
    :caption: Exercises
 
    lessons/L1/exercise-1
+   lessons/fa/final-assignment
