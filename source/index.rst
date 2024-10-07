@@ -27,7 +27,7 @@ Program
 
 The planned program for the course (see detailed schedule from the course introduction slides):
 
-.. figure:: img/schedule.png
+.. figure:: img/schedule-2024.png
 
 Looking for earlier versions?
 -----------------------------
