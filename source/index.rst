@@ -75,4 +75,4 @@ Contents
    :caption: Exercises
 
    lessons/L1/exercise-1
-   .. lessons/fa/final-assignment
+   lessons/fa/final-assignment
