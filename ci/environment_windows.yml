@@ -24,9 +24,9 @@ dependencies:
   - pyogrio=0.10.0
   - python-igraph=0.11.6
   - pysal=24.7
-  - r5py=0.1.2
   - r5py.sampledata.helsinki=0.1.2
   - r5py.sampledata.sao_paulo=0.1.2
   - pip
   - pip:
       - osmnx==2.0.0b3
+      - r5py==1.0.0dev0
