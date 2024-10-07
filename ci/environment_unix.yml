@@ -4,28 +4,28 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.11.5
-  - geopandas=0.14.0
-  - geopy=2.4.0
-  - geoviews=1.10.1
-  - hvplot=0.8.3
-  - ipyleaflet=0.17.4
-  - jupyterlab=3.6.5
-  - leafmap=0.27.0
-  - mapclassify=2.6.1
-  - matplotlib=3.8.0
-  - momepy=0.6.0
-  - movingpandas=0.17.1
-  - openjdk=20.0.2
-  - osmnx=1.6.0
-  - owslib=0.29.2
-  - pandas<2.1.0
-  - plotly=5.17.0
-  - pyogrio=0.6.0
-  - python-igraph=0.10.8
-  - pysal=23.1
-  - r5py>=0.1.1.dev0
+  - python=3.12.5
+  - geopandas=1.0.1
+  - geopy=2.4.1
+  - geoviews=1.13.0
+  - hvplot=0.11.0
+  - ipyleaflet=0.19.2
+  - jupyterlab=4.2.4
+  - leafmap=0.38.3
+  - mapclassify=2.8.1
+  - matplotlib=3.9.2
+  - momepy=0.8.1
+  - movingpandas=0.19.0
+  - openjdk=22.0.1
+  - owslib=0.31.0
+  - pandas=2.2.2
+  - plotly=5.24.1
+  - pyogrio=0.10.0
+  - python-igraph=0.11.6
+  - pysal=24.7
+  - r5py=0.1.2
+  - r5py.sampledata.helsinki=0.1.2
+  - r5py.sampledata.sao_paulo=0.1.2
   - pip
   - pip:
-    - r5py.sampledata.helsinki>=0.1.1.dev0
-    - r5py.sampledata.sao_paulo>=0.1.1.dev0
+      - osmnx==2.0.0b3
