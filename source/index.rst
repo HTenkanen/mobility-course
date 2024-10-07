@@ -25,7 +25,7 @@ submit the Python codes you have written, output figures and answers to related 
 Program
 -------
 
-The planned program for the course (see detailed schedule from the course introduction slides):
+The planned program for the course:
 
 .. figure:: img/schedule-2024.png
 
@@ -60,7 +60,7 @@ Contents
 
    course-info/introduction
    lessons/L1/giscience-and-sustainable-mobility
-   .. lessons/L3/sustainable-mobility-analytics
+   lessons/L3/sustainable-mobility-analytics
 
 .. toctree::
    :maxdepth: 1
