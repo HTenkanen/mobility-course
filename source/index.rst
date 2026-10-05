@@ -27,19 +27,19 @@ Program
 
 The planned program for the course:
 
-.. figure:: img/schedule-2024.png
+.. figure:: img/schedule-2026.jpg
 
-Looking for earlier versions?
------------------------------
+.. Looking for earlier versions?
+.. -----------------------------
 
-This website is a living document that changes slightly each time I teach these materials.
-However, all the earlier versions of the site are available from here:
+.. This website is a living document that changes slightly each time I teach these materials.
+   However, all the earlier versions of the site are available from here:
 
-- `Materials for workshop at Aalto in May 2024 <https://sumogis.readthedocs.io/en/2024-aalto-workshop/>`__
-- `Materials for short course at Augsburg University in Sep 2023 <https://sumogis.readthedocs.io/en/2023-augsburg>`__
-- `Materials for special course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
-- `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
-- `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
+.. - `Materials for workshop at Aalto in May 2024 <https://sumogis.readthedocs.io/en/2024-aalto-workshop/>`__
+.. - `Materials for short course at Augsburg University in Sep 2023 <https://sumogis.readthedocs.io/en/2023-augsburg>`__
+.. - `Materials for special course at Technical University Munich (TUM) in July 2023 <https://sumogis.readthedocs.io/en/2023-tum/>`__
+.. - `Materials for workshop at Aalto in May 2023 <https://sumogis.readthedocs.io/en/2023-aalto-workshop/>`__
+.. - `Materials for short course at Augsburg University in Sep 2022 <https://sumogis.readthedocs.io/en/2022-augsburg>`__
 
 
 Contents
@@ -60,19 +60,19 @@ Contents
 
    course-info/introduction
    lessons/L1/giscience-and-sustainable-mobility
-   lessons/L3/sustainable-mobility-analytics
+   .. lessons/L3/sustainable-mobility-analytics
 
 .. toctree::
    :maxdepth: 1
    :caption: Tutorials
 
    lessons/L1/intro-to-python-geostack.ipynb
-   lessons/L2/r5py_demo.ipynb
-   lessons/L3/mobility-analytics.ipynb
+   .. lessons/L2/r5py_demo.ipynb
+   .. lessons/L3/mobility-analytics.ipynb
 
 .. toctree::
    :maxdepth: 1
    :caption: Exercises
 
    lessons/L1/exercise-1
-   lessons/fa/final-assignment
+   .. lessons/fa/final-assignment
