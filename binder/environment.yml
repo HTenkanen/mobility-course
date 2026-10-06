@@ -6,6 +6,7 @@ channels:
 dependencies:
   - python=3.14.7
   - jupyterlab=4.6.4
+  - cmcrameri=1.10
   - contextily=1.7.1
   - folium=0.20.0
   - geopandas=1.2.0
