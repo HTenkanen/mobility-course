@@ -67,7 +67,7 @@ Contents
    :caption: Tutorials
 
    lessons/L1/intro-to-python-geostack.ipynb
-   .. lessons/L2/r5py_demo.ipynb
+   lessons/L2/cafein_tutorial.ipynb
    .. lessons/L3/mobility-analytics.ipynb
 
 .. toctree::

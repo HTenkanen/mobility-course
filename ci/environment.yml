@@ -11,6 +11,7 @@ dependencies:
   - geopandas=1.2.0
   - geopy=2.5.0
   - geoviews=1.15.1
+  - h3-py=4.5.0
   - hvplot=0.12.2
   - ipyleaflet=0.20.0
   - mapclassify=2.11.0
@@ -25,6 +26,7 @@ dependencies:
   - pyogrio=0.13.0
   - pyrosm=0.15.0
   - pysal=26.7
+  - rioxarray=0.23.0
   # Dependencies of the PyPI packages below
   - fastapi=0.142.2
   - httpx=0.28.1
