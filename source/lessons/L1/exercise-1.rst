@@ -4,8 +4,8 @@ Exercises 1-2
 How to get started?
 -------------------
 
-Download the `exercise material package <https://drive.google.com/file/d/1mHGGXk4571InVniE-oDT-tqwQrVuAApP/view?usp=sharing>`__ if you haven't done it already. From this Zip file, you can find the `exercises` directory
-and the Notebooks containing the instructions for the exercises. The Zip file contains the data needed for Exercise 1. In Exercise 2, you download the data yourself with ``transitio``.
+Download the `exercise material package <https://drive.google.com/file/d/1mHGGXk4571InVniE-oDT-tqwQrVuAApP/view?usp=sharing>`__ if you haven't done it already. In this Zip file, you can find the ``Exercises-2026`` folder
+with the Notebooks containing the instructions for the exercises. Both exercises download their data during the exercise: Exercise 1 from OpenStreetMap with ``osmnx``, and Exercise 2 with ``transitio``.
 
 Exercise 1
 ----------
