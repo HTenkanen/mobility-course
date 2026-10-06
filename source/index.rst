@@ -68,6 +68,7 @@ Contents
 
    lessons/L1/intro-to-python-geostack.ipynb
    .. lessons/L2/cafein_tutorial.ipynb
+   .. lessons/L2/cafein_munich.ipynb
    .. lessons/L3/mobility-analytics.ipynb
 
 .. toctree::
