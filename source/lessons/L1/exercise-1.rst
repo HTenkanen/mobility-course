@@ -5,18 +5,18 @@ How to get started?
 -------------------
 
 Download the `exercise material package <https://drive.google.com/file/d/1mHGGXk4571InVniE-oDT-tqwQrVuAApP/view?usp=sharing>`__ if you haven't done it already. From this Zip file, you can find the `exercises` directory
-and the Notebooks containing the instructions for the exercises. Notice that the Zipfile is relatively large (approx. 60-70 Mb) because it contains all the data needed
-for the exercises (+ extra data for Augsburg).
+and the Notebooks containing the instructions for the exercises. The Zip file contains the data needed for Exercise 1. In Exercise 2, you download the data yourself with ``transitio``.
 
-Exerise 1
----------
+Exercise 1
+----------
 
 In the Exercise 1, you will familiarize yourself with some basic functionalities of geopandas.
 
-Exerise 2
----------
+Exercise 2
+----------
 
-In the Exercise 2, you will familiarize yourself with network analysis and accessibility modelling using ``r5py`` and ``osmnx`` libraries.
+In the Exercise 2, you will download public transport and OpenStreetMap data for Prague, Czechia, with ``transitio``, and analyze accessibility and emissions by public transport and by bike with ``cafein``.
+Follow the examples in Tutorial II. The downloads take roughly 10 minutes and need about 800 MB of disk space, so start them well before the exercise session.
 
 Solutions
 ---------
@@ -42,7 +42,7 @@ To download the buildings from the area of the boundaries, you can do following:
 
 .. code:: python
 
-    buildings = ox.features_from_polygon(boundaries.unary_union, tags={"building": True})
+    buildings = ox.features_from_polygon(boundaries.union_all(), tags={"building": True})
 
 
 
