@@ -15,7 +15,7 @@ What should you do?
 
 Pick a city or region and a question about accessibility that interests you, and answer it with your own analysis.
 The topic ideas below show what you can study with ``cafein`` and ``transitio``, the libraries we used in
-:doc:`Tutorial II <../L2/cafein_tutorial>` and the :doc:`Munich case study <../L2/cafein_munich>`.
+:doc:`Tutorial II <../L2/cafein_tutorial>` and :doc:`Tutorial III <../L2/cafein_munich>`.
 They are suggestions: you can combine them, apply them to any city, or propose a topic of your own.
 
 A good project:
@@ -88,7 +88,7 @@ Data
 **Download the data with transitio.** As in Exercise 2, ``transitio.fetch(place=...)`` downloads the public transport
 timetables (GTFS) that serve a place, together with the OpenStreetMap data of the area, and ``transitio.fetch_pbf()``
 downloads only the OpenStreetMap data. To see which feeds serve your area, look the place up in the feed index of
-``transitio``, as in the Munich case study. The feed index is downloaded once and takes about 420 MB.
+``transitio``, as in Tutorial III. The feed index is downloaded once and takes about 420 MB.
 
 **Use the ready-made data of Helsinki.** ``cafein.sampledata.helsinki`` contains the timetables, OpenStreetMap data and
 an elevation model of the Helsinki region, as well as a population grid, income statistics by postal code area,
@@ -108,14 +108,14 @@ Other data sources:
 - `Open geodata of Bavaria <https://geodaten.bayern.de/opengeodata/>`__.
 
 **Emission factors.** The default emission factors of ``cafein`` are calibrated to the Finnish electricity mix. If your
-city is in another country, calculate local factors with ``cafein.lca``, as in the Munich case study.
+city is in another country, calculate local factors with ``cafein.lca``, as in Tutorial III.
 
 Practical tips
 --------------
 
 - **Start small.** Test your workflow with a few origins and a small area, and scale it up when it works.
 - **Mind the memory.** Building the networks for a metropolitan region takes several gigabytes of memory (about 6 GB for
-  the Munich case study). Keep your study area at the scale of a city or a region, and crop the data to it with
+  the Munich data of Tutorial III). Keep your study area at the scale of a city or a region, and crop the data to it with
   ``transitio``. Binder does not have enough memory for these analyses, so work on your own computer.
 - **Check the dates.** A GTFS feed is valid only for a limited period. Check it with ``network.service_window``, pick a
   departure time inside it, and report the date in your report.
