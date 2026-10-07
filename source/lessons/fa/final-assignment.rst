@@ -15,7 +15,7 @@ What should you do?
 
 Pick a city or region and a question about accessibility that interests you, and answer it with your own analysis.
 The topic ideas below show what you can study with ``cafein`` and ``transitio``, the libraries we used in
-:doc:`Tutorial II <../L2/cafein_tutorial>` and :doc:`Tutorial III <../L2/cafein_munich>`.
+:doc:`Tutorial II <../L2/cafein_tutorial>`, :doc:`Tutorial III <../L2/cafein_munich>` and :doc:`Tutorial IV <../L3/cafein_equity_munich>`.
 They are suggestions: you can combine them, apply them to any city, or propose a topic of your own.
 
 A good project:
@@ -52,7 +52,8 @@ any place it finds in its feed index.
 
 - How unequally is the access to health care, jobs or green areas shared between the residents, and do the residents with
   lower incomes have better or worse access? ``cafein.equity`` calculates inequality measures such as the Gini index,
-  the Palma ratio and the concentration index, and draws Lorenz curves.
+  the Palma ratio and the concentration index, and draws Lorenz curves. :doc:`Tutorial IV <../L3/cafein_equity_munich>`
+  shows how to use them in Munich.
 - Where do poor access and high transport costs come together? ``cafein.equity`` also measures the transport cost
   burden, i.e. the share of income that people spend on travel.
 
@@ -103,7 +104,7 @@ Other data sources:
   `Transitland <https://www.transit.land/>`__ and `GTFS.de <https://gtfs.de/>`__ (Germany).
 - Destinations: OpenStreetMap, e.g. with ``osmnx`` or ``pyrosm``.
 - Population: the `2022 census of Germany <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_inhalt.html>`__
-  publishes its results on a grid, and the `Global Human Settlement Layer <https://human-settlement.emergency.copernicus.eu/download.php>`__
+  publishes its results on a grid (e.g. the age structure and the rents used in Tutorial IV), and the `Global Human Settlement Layer <https://human-settlement.emergency.copernicus.eu/download.php>`__
   provides population grids for the whole world.
 - `Open geodata of Bavaria <https://geodaten.bayern.de/opengeodata/>`__.
 
