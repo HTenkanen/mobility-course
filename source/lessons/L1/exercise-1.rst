@@ -18,32 +18,6 @@ Exercise 2
 In the Exercise 2, you will download public transport and OpenStreetMap data for Prague, Czechia, with ``transitio``, and analyze accessibility and emissions by public transport and by bike with ``cafein``.
 Follow the examples in Tutorial II. The downloads take roughly 10 minutes and need about 800 MB of disk space, so start them well before the exercise session.
 
-.. admonition:: Hint: let transitio recommend the feeds
-
-    ``transitio`` 0.21.1 and newer can tell you which feeds to use for a place on your study day, and why.
-    Update it in the terminal with ``pip install -U transitio`` (or ``pip install -U "transitio[notebook]"`` for graphical
-    progress bars), restart the Jupyter kernel and check that ``transitio.__version__`` is 0.21.1 or newer. Then install
-    the course's preview feed index (a one-time download of about 330 MB) and ask for a recommendation:
-
-    .. code:: python
-
-        import transitio
-
-        transitio.index.refresh(repository="transitio-dev/transitio-index-preview")
-
-        prague = transitio.place("Prague", kind="city")
-        rec = prague.recommend("2026-10-13")
-        print(rec)
-
-        result = transitio.fetch(feeds=rec)
-        result.selection_table()
-
-    The first line of ``print(rec)`` tells how many feeds to take and what share of the place's departures they cover.
-    Lines starting with ``+`` are the feeds to take, and lines starting with ``-`` the feeds left out and why. A feed marked
-    "not compared" was measured apart from the others, so compare it yourself in ``prague.feeds(categories=None).to_dataframe()``,
-    which shows the share of departures each feed ``covers`` and the feeds it ``repeats``. ``transitio.index.refresh()``
-    without arguments switches back to the regular index.
-
 Solutions
 ---------
 
@@ -70,5 +44,25 @@ To download the buildings from the area of the boundaries, you can do following:
 
     buildings = ox.features_from_polygon(boundaries.union_all(), tags={"building": True})
 
+.. admonition:: Hint: let transitio recommend the feeds
 
+    ``transitio`` 0.21.1 and newer can tell you which feeds to use for a place on your study day, and why.
+    Update it in the terminal with ``pip install -U transitio`` (or ``pip install -U "transitio[notebook]"`` for graphical
+    progress bars), restart the Jupyter kernel and check that ``transitio.__version__`` is 0.21.1 or newer. Then install
+    the course's preview feed index (a one-time download of about 330 MB) and ask for a recommendation, e.g. for Helsinki:
 
+    .. code:: python
+
+        import transitio
+
+        transitio.index.refresh(repository="transitio-dev/transitio-index-preview")
+
+        helsinki = transitio.place("Helsinki", kind="city")
+        rec = helsinki.recommend("2026-10-13")
+        print(rec)
+
+        result = transitio.fetch(feeds=rec)
+        result.selection_table()
+
+    The first line of ``print(rec)`` tells how many feeds to take and what share of the place's departures they cover.
+    Lines starting with ``+`` are the feeds to take, and lines starting with ``-`` the feeds left out and why.
