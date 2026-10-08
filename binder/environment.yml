@@ -35,6 +35,7 @@ dependencies:
   - pyarrow=25.0.0
   - scipy=1.18.1
   - shapely=2.1.2
+  - tqdm=4.70.1
   - tzfpy=2.1.0
   - uvicorn=0.54.0
   - pip
@@ -42,5 +43,5 @@ dependencies:
       - cafein==0.29.0
       - cafein.lca==0.1.0
       - cafein.sampledata==2026.8.4
-      - transitio==0.19.1
+      - transitio==0.21.1
       - transitio-editor==0.9.0
